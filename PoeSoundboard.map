@@ -6,6 +6,10 @@
 <!-- #$-:Please do not edit lines starting with "#$" -->
 <!-- #$VERSION:2.3 -->
 <!-- #$AUTHOR:Jepjr -->
-<area shape="circle" coords="468,98,134" alt="grow" target="audio" href="6_sockets.mp3" />
-<area shape="poly" coords="333,495,360,489,379,487,414,488,428,493,436,499,442,503,444,511,443,518,436,523,421,530,407,533,379,533,367,533,349,531,341,529,333,525,328,520,325,517,324,508,329,500,334,495" href="atlas_exclusive.mp3" />
+<area shape="circle" coords="468,98,134" alt="A little more juice!" target="audio" href="/audio/6_sockets.mp3" />
+<area shape="poly" coords="333,495,360,489,379,487,414,488,428,493,436,499,442,503,444,511,443,518,436,523,421,530,407,533,379,533,367,533,349,531,341,529,333,525,328,520,325,517,324,508,329,500,334,495" alt="Divine Power 1" target="audio" href="/audio/currency_1.mp3" />
+<area shape="poly" coords="183,240,196,224,205,220,220,222,228,234,242,258,242,280,244,290,248,296,239,304,221,306,200,305,192,304,185,290,183,285,185,265,183,251,182,241,183,240" alt="Oh!" target="audio" href="/audio/atlas_exclusive.mp3" />
+<area shape="circle" coords="218,344,11" alt="DIVINE POOOOWWWEEERRR" target="audio" href="/audio/currency_extra.mp3" />
+<area shape="poly" coords="180,439,191,439,195,437,192,414,176,415,172,424,177,440,180,440" alt="Oh, Bless!" target="audio" href="/audio/currency_3.mp3" />
+<area shape="poly" coords="176,437,171,451,159,446,159,442,159,439,158,435,157,432,157,429,159,425,162,420,164,416,166,412,167,411,169,410,174,408,176,407,177,408,178,413,178,414,176,414,172,423,173,430" alt="You MUST be cleansed!" target="audio" href="/audio/essence.mp3" />
 </map>
