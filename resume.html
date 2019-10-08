@@ -11,38 +11,57 @@
 	</head>
 
 	<body>
+		<video autoplay muted loop id="myVideo">
+		  <source src="background.mp4" type="video/mp4">
+		</video>
+		<div class="nameplate">
+		  <h1>Jon Pilling</h1>
+		  <p>This is my Homepage</p>
+    </div>
+    
     <div class="container">
       <div class="row">
         <div class="col-sm-4">
+          <h3>Column 1</h3>
+          <p>Lorem ipsum dolor..</p>
         </div>
         <div class="col-sm-4">
-          <div class="nameplate">
-            <h3>Jon Pilling</h3>
-            <p>This is my homepage</p>
-          </div>
+          <h3>Column 2</h3>
+          <p>Lorem ipsum dolor..</p>
         </div>
         <div class="col-sm-4">
-          <nav class="links">
-              <ul>
-                <i class="fas fa-award"></i> <li><a href="./assignment0.html">Resume</a></li><br>
-              </ul>
-            </nav>
+          <h3>Column 3</h3>
+          <p>Lorem ipsum dolor..</p>
         </div>
       </div>
     </div>
-  </body>
-  
+
+		<nav class="links">
+			<ul>
+				<i class="fas fa-user-circle"></i> <li><a href="#">About Me</a></li><br>
+				<i class="fas fa-award"></i> <li><a href="#">Resume</a></li><br>
+				<i class="fas fa-desktop"></i> <li><a href="#">Hobbies</a></li><br>
+				<i class="fas fa-briefcase"></i> <li><a href="#">Work</a></li><br>
+			</ul>
+    </nav>
+    
+    <script>
+      function myFunction() {
+        var str = "Free Web Building Tutorials!";
+        var result = str.link("https://www.w3schools.com");
+        document.getElementById("links").innerHTML = result;
+      }
+    </script>
+
+	</body>
+
 	<style>
+
     @media only screen and (max-width: 900px) {
       body {
         background-color: rgb(39, 34, 85);
       }
     }
-
-    body {
-        background-image: url("./background.png");
-        background-color: #cccccc;
-      }
 
     .container {
       position: relative;
@@ -61,7 +80,10 @@
       margin: 0;
 			font-family: Arial;
 			font-size: 32px;
-			color: navy;
+			position: fixed;
+			top: 30%;
+			left: 30%;
+			color: #f1f1f1;
 			width: 100%;
 			padding: 20px;
 		}
@@ -70,6 +92,9 @@
       margin: 0;
 			font-family: Arial;
 			font-size: 32px;
+			position: fixed;
+			top: 10%;
+			right: 10%;
 			color: #f1f1f1;
 		}
 
@@ -77,14 +102,9 @@
 			color: #f1f1f1;
 		}
 
-    .links a:visited {
-      color: #f1f1f1;
-    }
-
 		nav ul li {
 		display: inline;
 		}
-
 		nav ul li a:hover {
 			background-color: #369;
 			color: #fff;
